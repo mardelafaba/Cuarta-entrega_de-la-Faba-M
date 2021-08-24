@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulario</title>
+    <link rel="stylesheet" href="Inicio.css"
+</head>
+<body>
+    <header>
+        <nav class="navbar navbar-expand-lg navbar-dark bg-light">
+          <div class="container-fluid">
+             <div class="collapse navbar-collapse" id="MenuNav">
+              <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                <li class="nav-item">
+                  <a class="nav-link" aria-current="page" href="./Inicio.html">Inicio</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="./Servicios.html">Servicios</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="./Sobre mi.html">Sobre mí</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="./Clientes.html">Clientes</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="./Profesionales.html">Profesionales</a>
+                </li>
+                <li class="nav-item dropdown">
+                  <a class="nav-link active dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                    Contacto
+                  </a>
+                  <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                    <li><a class="dropdown-item" href="#">Blog</a></li>
+                  </ul>
+                </li>
+              </ul>
+            </div>
+          </div>
+        </nav>
+    </header>
+<hr>
+        <h1> Contacto </h1>
+    <form action="#">
+        <fieldset>
+            <legend>
+                Información del usuario
+             </legend>
+        <div>
+            <label for="username">Nombre y apellido</label>
+            <input type="text" name="username">
+        </div>
+        <br>
+        <div>
+            <label for="usermail">Correo</label>
+            <input type="email" name="usermail" id="" placeholder="Ingrese su correo" required>
+        </div> 
+        <div>
+            <label for="contraseña">Contraseña</label>
+           <input type="password" name="contraseña" id=""> 
+        </div>
+        <br>
+        <div>
+            <label for="genero">Género</label>
+            <label for="genero">Hombre</label>
+            <input type="radio" name="genero"" value="Femenino">
+            <label for="genero">Mujer</label>
+            <input type="radio" name="genero" value="Masculino">
+            <label for="genero">Otro</label>
+            <input type="radio" name="genero" value="otro">
+        </div>
+        <div>
+            <select name="Estado civil" id="" required>
+                <option value="" disabled selected> Estado civil</option>
+                <option value="S">Solterx</option>
+                <option value="C">Casadx</option>
+            </select>
+        </div>
+        <div>
+            <label for="comments">Comentarios</label>
+            <textarea name="comments" id="" cols="30" rows="10" placeholder="Coloque aquí su comentario"></textarea>
+                   </div>
+        <div>
+            <label for="acepta">¿Desea recibir el newsletter?</label>
+            <input type="checkbox" name="Acepta" value="1">
+        </div>
+        <input type="submit" value="Enviar">
+        <input type="reset" value="Borrar">
+        <input type="button" value="Sin acciones">
+        </fieldset>
+    </form>
+    <br><br>
+    <h3>Ubicación</h3>
+    <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d13136.066850016401!2d-58.3815704!3d-34.6037389!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x11bead4e234e558b!2sObelisco!5e0!3m2!1ses!2sar!4v1625722939901!5m2!1ses!2sar" width="400" height="300" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+<Footer>
+    <h3>Todos los derechos reservados©</h3>
+        <h4><i>¿Querés hablar con nosotros?</i></h4>
+          <ul>
+            <li><i class="bi bi-linkedin"></i> LinkedIn</li>
+            <li><i class="bi bi-facebook"></i> Facebook</li>
+            <li><i class="bi bi-instagram"></i> Instagram</li>
+            <li><i class="bi bi-twitter"></i> Twitter</li>
+          </ul>
+</Footer>
+</body>
+</html>
